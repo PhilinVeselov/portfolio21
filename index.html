@@ -27,8 +27,8 @@
     <div class="info container">
         <img src="img/Снимок экрана 2022-08-07 в 23.08 1.png" alt="" class="header_photo">
         <div class="header_text">
-            <h1>Привет 👋</h1> <br>
-                <p><span>Я фронтенд-разработчик и веб-дизайнер</span><br> 
+            <h1 class="header_texth1">Привет 👋</h1> <br>
+                <p class="header_textp"><span class="color">Я фронтенд-разработчик и веб-дизайнер</span><br> 
                     Меня зовут Филя Веселов и я делаю <br>
                     сайты для людей и компаний</p>
             <div class="social_network">
@@ -43,12 +43,98 @@
                         <p class="cv_text">Скачать резюме</p>
                     </a>
                 </ul>
-              
             </div>
-        
-
-
+        </div>
     </div>
     <!-- инфа привествия -->
+    <div class="my_project container">
+        <h2>Последние проекты</h2>
+        <div class="project_info">
+            <div class="left_info">
+                <img src="img/left_photo.jpg" class="card_img" alt=""> 
+                <div class="header_text">
+                    <h3>Мобильное приложение</h3>
+                    <ul class="skills">
+                        <li class="SKILLS_STYLE">HTL</li>
+                        <li class="SKILLS_STYLE">CSS</li>
+                        <li class="SKILLS_STYLE">JavaScript</li>
+                        <li class="SKILLS_STYLE">Git</li>
+                        <li class="SKILLS_STYLE">Vitejs</li>
+                    </ul>
+                    <p>Excepteur sint occaecat cupidatat non proident, <br> 
+                        sunt in culpa qui officia deserunt mollit anim id <br>
+                        est laborum.</p>
+                    <ul class="botom_info">
+                        <li class="bottom_text"><img src="icon/kod.jpg" alt=""><a class="link_ifo" href="">Код</a></li>
+                        <li class="bottom_text"><img src="icon/demo.jpg" alt=""><a  class="link_ifo" href="">Демо</a></li>
+                    </ul>
+                </div>
+             </div>
+             <div class="rigt_info">
+                <img src="img/rigt_photo.jpg" class="card_img" alt="">
+                <div class="header_text">
+                    <h3>Одностраничный промо-сайт</h3>
+                    <ul class="skills">
+                        <li class="SKILLS_STYLE">HTL</li>
+                        <li class="SKILLS_STYLE">CSS</li>
+                    </ul>
+                    <p>Excepteur sint occaecat cupidatat non proident, <br>
+                        sunt in culpa qui officia deserunt mollit anim id <br>
+                        est laborum.</p>
+                    <ul class="botom_info">
+                        <li class="bottom_text"><img src="icon/kod.jpg" alt=""><a class="link_ifo" href="">Код</a></li>
+                        <li class="bottom_text"><img src="icon/demo.jpg" alt=""><a class="link_ifo" href="">Демо</a></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- мои проекты -->
+    <div class="description_my_life container">
+        <img src="img/mu_photo2.jpg" alt="">
+        <div class="descriprion">
+            <p class="greetings">Рад вас видеть</p>
+            <h2>Я Филипп Веселов</h2>
+            <p class="about_me">Я разрабатываю сайты для людей и компаний. Делаю <br> всё сам: составляю прототип, дизайн-макет, пишу код.</p>
+            <span>Код, Дизайн, Обучение</span>
+            <p class="about_me">Могу собрать страницу для вашей компании, даже если <br> запускать её нужно уже завтра. Из инструментов есть: <br>
+                Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
+                <img src="img/подпись1.jpg" alt="">
+        </div>
+    </div>
+    <footer class="container">
+        <p>Работаю с разными языками и инструментами</p>
+        <ul class="skills_footer">
+            <li class="skills_custom">HTML</li>
+            <li class="skills_custom">CSS</li>
+            <li class="skills_custom">JavaScript</li>
+            <li class="skills_custom">Wordpress</li>
+            <li class="skills_custom">Python</li>
+            <li class="skills_custom">SASS</li>
+        </ul>
+        <div class="feedback">
+            <h2>Готов обсудить проект...</h2>
+            <form action="#" class="form">
+                <div class="iput_group">
+                    <label class="input_lable" for="uesername">Имя</label>
+                    <input id="uesername" type="text" class="input" name="client_name">
+                </div>
+                <div class="iput_group">
+                    <label class="input_lable" for="ueserEmail">Email</label>
+                    <input id="ueserEmail" type="text" name="client_email" class="input">
+                </div>
+                <div class="iput_group">
+                    <label class="input_lable" for="ueserMessage">Сообщение</label>
+                    <textarea name="" id="" cols="30" rows="30" name="client_message" class="input textarea"></textarea>
+                </div>
+                <button type="submit" class="">
+                    <img src="icon/sent.svg" alt="">
+                    <span>Отправить</span>              
+                </button>
+            </form>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="telega.php"></script>
 </body>
 </html>

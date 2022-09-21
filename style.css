@@ -1,6 +1,9 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+*{
+    box-sizing: border-box;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -35,7 +38,7 @@ body{
     display: flex;
     margin-top: 74px;
 }
-.header_text p{
+.header_textp{
     margin: 0 ;
     font-family: 'Inter';
     font-style: normal;
@@ -43,10 +46,10 @@ body{
     font-size: 24px;
     line-height: 135%;
 }
-.header_text span{
+.color{
     color: #BF7506;
 }
-.header_text h1{
+.header_texth1{
     margin: 0 ;
     font-family: 'Inter';
     font-style: normal;
@@ -67,7 +70,6 @@ body{
     margin-left: 8px;
 }
 .cv_download{
-    padding: 7px 8px;
     margin-left: 55px;
     display:flex;
     align-items:center;
@@ -75,11 +77,260 @@ body{
     border-bottom: 2px solid #BF7506;
 
 }
-.cv_download p{
+.cv_text{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
     color: #211B12;
+    margin-bottom: 7px;
+
+}
+.my_project{
+    margin-top: 82px;
+}
+.my_project h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+}
+.left_info, .rigt_info {
+    width: 399px;
+    height: 527px;
+    
+}
+.project_info{
+    justify-content: space-between;
+    display: flex;
+}
+.header_text{
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #BF7506;
+    margin-top: 8px;
+
+}
+.skills{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+.SKILLS_STYLE{
+    padding: 5px 8px 4px 8px;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.my_project p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.botom_info{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+.bottom_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #BF7506;
+    margin-right: 25px;
+}
+.botom_info img{
+    margin-right: 4px;
+}
+.description_my_life{
+    display:flex;
+    margin-top: 120px;
+}
+.descriprion{
+    margin-left: 56px;
+}
+.greetings{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+    margin-bottom: 4px;
+}
+.descriprion h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-bottom: 16px;
+}
+.about_me{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.descriprion span{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #DD9C3C;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.link_ifo{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 150%;
+}
+footer  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+.skills_footer{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+.skills_custom{
+    padding: 5px 8px 4px 8px;
+    margin-right: 6px;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+}
+.feedback{
+    padding: 80px 0 160px 0;
+    position: relative;
+}
+.iput_group{
+    position: relative;
+    padding:5px ;
+
+}
+.input_lable{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background-color:white;
+    position: absolute;
+    top:0;
+    left: 16px;
+}
+.input{
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+    padding-left: 15px;
+
+}
+.textarea{
+    min-height: 140px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.feedback{
+    max-width: 435px;
+    margin: auto;
+}
+button{
+    padding:8px;
+    margin-left: 55px;
+    display:flex;
+    align-items:center;
+    background-color:white;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #BF7506;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    float: right;
+}
+.card_img{
+    max-width: 100%;
+}
+button img{
+    margin-right: 5px;
+}
+@media (max-width:1024px){ 
+    .container{
+        max-width: 760px;
+    }
+    .left_info, .rigt_info{
+        max-width: 350px;
+    }
+}
+@media (max-width:790px){ 
+    .container{
+        max-width: 576px;
+    }
+    .header_photo{
+        max-width: 150px;
+    }
+    .header_texth1  {
+        font-size: 36px;
+    }
+    .header_textp{
+        font-size: 18px;
+    }
+    .color{
+        font-size: 18px; 
+    }
+    .cv_download{
+        margin-left: 15px;
+    }
+    .cv_text{
+        font-size: 14px;
+    }
+    .left_info, .rigt_info{
+        max-width: 250px;
+    }
+    .my_project{
+        max-width:300px;
+    }
 }
